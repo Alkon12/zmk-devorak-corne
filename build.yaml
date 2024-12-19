@@ -20,12 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_left nice_oled
-    CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
-    CONFIG_BT_CTRL_TX_PWR_PLUS_8=y
-    CONFIG_ZMK_KEYBOARD_NAME="Corne Left"
+    shield: corne_left
   - board: nice_nano_v2
-    shield: corne_right nice_oled
-    CONFIG_ZMK_SPLIT_ROLE_PERIPHERAL=y
-    CONFIG_BT_CTRL_TX_PWR_PLUS_8=y
-    CONFIG_ZMK_KEYBOARD_NAME="Corne Right"
+    shield: corne_right
